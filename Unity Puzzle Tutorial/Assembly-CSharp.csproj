@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{01F2946A-AF4C-E21C-0271-4DF5607C3387}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_3;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/opt/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/opt/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Dungeon Pack\Scripts\ChestDemo.cs" />
+     <Compile Include="Assets\Dungeon Pack\Scripts\MaterialMover.cs" />
+     <Compile Include="Assets\Dungeon Pack\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Dungeon Pack\Scripts\SpikeTrapDemo.cs" />
+     <Compile Include="Assets\Dungeon Pack\Scripts\TrapDoorDemo.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\Axe.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\Crate.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\DamageSource.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\FirstAid.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\Food.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\GameManager.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\Gem.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\HUD.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\Inventory.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\InventoryItem.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\InventoryItemBase.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\InventorySlot.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\ItemClickHandler.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\ItemDragHandler.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\ItemDropHandler.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\PlayerFollow.cs" />
+     <Compile Include="Assets\LowPolyNature\Scripts\Sheep.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
+     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
+     <Compile Include="Assets\Scripts\playerLook.cs" />
+     <Compile Include="Assets\Scripts\playerMove.cs" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
+     <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendNormalx5.shader" />
+     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Diffuse fade.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Bump fade addpass.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitSolidColor.shader" />
+     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Bump fade.shader" />
+     <None Include="Assets\EmaceArt\LowPolyNatureProject - EA04 Tiny Forest\Info\Info.txt" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
+     <None Include="Assets\laxer Assets\Terrain Shader\AddOn1\4x UV_Mixing.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+     <None Include="Assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
+     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendx5.shader" />
+     <None Include="Assets\laxer Assets\Terrain Shader\AddOn2\custom terrain Bump fade 4x smooth.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
+     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain fade addpass.shader" />
+     <None Include="Assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
+     <None Include="Assets\BrokenVector\FreeLowPolyPack\readme.txt" />
+     <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendSpecularx4.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+     <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendRGB.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_NormalPreview.shader" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
+     <None Include="Assets\ProCore\ProBuilder\readme.txt" />
+     <None Include="Assets\ProCore\ProBuilder\Shader\pb_SmoothingPreview.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderCore-Unity5">
+ <HintPath>/home/yiangos/Documents/Unity Puzzle Tutorial/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderMeshOps-Unity5">
+ <HintPath>/home/yiangos/Documents/Unity Puzzle Tutorial/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ </Reference>
+ <Reference Include="Poly2Tri">
+ <HintPath>/home/yiangos/Documents/Unity Puzzle Tutorial/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+ </Reference>
+ <Reference Include="pb_Stl">
+ <HintPath>/home/yiangos/Documents/Unity Puzzle Tutorial/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+ </Reference>
+ <Reference Include="KdTreeLib">
+ <HintPath>/home/yiangos/Documents/Unity Puzzle Tutorial/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
